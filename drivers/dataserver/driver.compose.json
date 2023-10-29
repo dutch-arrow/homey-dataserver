@@ -1,0 +1,50 @@
+{
+  "name": {
+    "en": "dataserver"
+  },
+  "class": "socket",
+  "capabilities": ["data-offered"],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "lan"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "pair": [
+    {
+      "id": "enter_device_data"
+    },
+    {
+      "id": "add_my_device",
+      "template": "add_devices"
+    }
+  ],
+  "settings": [
+    {
+      "type": "group",
+      "label": {
+        "en": "General settings",
+        "nl": "Algemene settings"
+      },
+      "children": [
+        {
+          "id": "url",
+          "type": "text",
+          "label": {
+            "en": "URL of Data Server",
+            "nl": "URL van Data server"
+          },
+          "hint": {
+            "en": "Enter the URL of your Data Server",
+            "nl": "Vul de URL van jouw Data Server in"
+          }
+        }
+      ]
+    }
+  ]
+}

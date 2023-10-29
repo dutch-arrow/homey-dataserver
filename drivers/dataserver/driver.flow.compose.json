@@ -1,0 +1,18 @@
+{
+  "triggers": [
+    {
+      "id": "data-offered_changed",
+      "title": { 
+        "en": "Data Server offers data",
+        "nl": "Data Server aanbod"
+      },
+      "tokens": [
+          {
+            "name": "data-offered",
+            "type": "string",
+            "title": { "en": "Data offered" }
+          }
+      ]
+    }
+  ]
+}

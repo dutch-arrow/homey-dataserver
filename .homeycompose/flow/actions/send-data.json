@@ -1,0 +1,19 @@
+{
+  "title": {
+    "en": "Send data to Data Server",
+    "nl": "Stuur data naar Data Server"
+  },
+  "titleFormatted": {
+    "en": "Send '[[data]]' to Data Server",
+    "nl": "Stuur '[[data]]' naar Data Server"
+  },
+  "args": [
+    {
+      "type": "text",
+      "name": "data",
+      "placeholder": {
+        "en": "data"
+      }
+    }
+  ]
+}

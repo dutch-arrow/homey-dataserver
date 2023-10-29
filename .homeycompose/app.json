@@ -1,0 +1,43 @@
+{
+  "id": "nl.das.dataserver",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Data Server"
+  },
+  "description": {
+    "en": "Adds support for communicating with a Data Server."
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Tom Pijl",
+    "email": "dutch.arrow53@gmail.com"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Tom Pijl"
+      }
+    ]
+  },
+  "brandColor": "#4a90e2",
+  "api": {
+    "sendMetric": {
+      "method": "POST",
+      "path": "/metric",
+      "public": "yes"
+    }
+  }
+}

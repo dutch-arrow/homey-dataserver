@@ -1,0 +1,10 @@
+{
+  "title": {
+    "en": "Data Server !{{can|can not}} be reached",
+    "nl": "Data Server !{{is|is niet}} bereikbaar"
+  },
+  "hint": {
+    "en": "Checks if Data Server can he reached.",
+    "nl": "Checks of de Data Server bereikbaar is."
+  }
+}
